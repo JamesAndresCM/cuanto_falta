@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a mini-app for consumer transantiago external api using stimulusJS
 
-Things you may want to cover:
+Steps:
+```
+bundle install
+```
 
-* Ruby version
+Uploading Screen Recording 2023-11-08 at 22.07.30.mov…
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
