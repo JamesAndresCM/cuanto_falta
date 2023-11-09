@@ -1,0 +1,27 @@
+<div data-controller="table" class="row g-3">
+ <div class="col-auto">
+    <input class="form-control" placeholder="eje: PA1" data-table-target="search" type="text" data-action="input->table#checkInput keydown->table#handleKeyPress">
+  </div>
+  <div class="col-auto">
+    <button class="btn btn-primary" data-action="click->table#loadData" data-table-target="button" disabled>
+      Buscar
+    </button>
+  </div>
+</div>
+
+<div id="loader" class="loader"></div>
+<span class="mt-2" data-controller="table" data-table-target="name"></span>
+
+<table class="table table-hover mt-4 table-responsive" data-controller="table" data-table-target="table">
+  <thead>
+    <tr>
+      <th><i class="bi bi-bus-front">Bus</i></th>
+      <th><i class="bi bi-card-heading"></i>Patente</th>
+      <th><i class="bi bi-binoculars">Distancia</i></th>
+      <th><i class="bi bi-stopwatch">Cuanto falta?</i></th>
+      <th><i class="bi bi-stopwatch-fill">A mas tardar llega</i></th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
